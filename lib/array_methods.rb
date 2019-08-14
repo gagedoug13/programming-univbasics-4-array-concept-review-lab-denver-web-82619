@@ -4,7 +4,10 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  p array.find_max_value()
+  array.length.times do |index|
+    puts array[index]
+
+  end
 end
 
 def find_min_value(array)
